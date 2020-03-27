@@ -1,51 +1,7 @@
-/**
- * =================================================================== 
- *
- *  Kards v1.0 Main Stylesheet
- *  url: styleshout.com
- *  03-01-2016
- *  ------------------------------------------------------------------
- *  TOC:
- *  01. webfonts and iconfonts
- *  02. base style overrides
- *  03. typography & general theme styles
- *  04. preloader
- *  05. forms
- *  06. buttons 
- *  07. other components
- *  08. common styles
- *  09. header styles
- *  10. intro
- *  11. about
- *  12. resume
- *  13. portfolio
- *  14. call-to-action section
- *  15. services
- *  16. stats
- *  17. contact
- *  18. footer
- *
- * =================================================================== 
- */
-
-
-/** 
- * ===================================================================
- * 01. webfonts and iconfonts - (_document-setup.scss)
- *
- * ------------------------------------------------------------------- 
- */
 @import url("fonts.css");
 @import url("font-awesome/css/font-awesome.min.css");
 @import url("micons/micons.css");
 
-
-/** 
- * ===================================================================
- * 02. base style overrides - (_document-setup.scss)
- *
- * ------------------------------------------------------------------- 
- */
 html {
 	font-size: 10px;
 }
@@ -70,7 +26,7 @@ html, body {
 	height: 100%;
 }
 body {
-	background: #151515;
+	background: #000000;
 	font-family: "lora-regular", serif;
 	font-size: 1.7rem;
 	line-height: 3rem;
@@ -90,7 +46,7 @@ a, a:visited {
 	transition: all 0.3s ease-in-out;
 }
 a:hover, a:focus, a:active {
-	color: #FF0077;
+	color: #cc005f;
 	outline: 0;
 }
 
@@ -1041,7 +997,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	margin-bottom: 1.2rem;
 }
 .section-intro h5 {
-	color: #FF0077;
+	color: #DB4437;
 	font-size: 1.6rem;
 	line-height: 1.875;
 	margin-bottom: 0.3rem;
@@ -1294,7 +1250,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #intro {
-	background: #151515 url(../images/intro-bg.jpg) no-repeat center bottom;
+	background: #000000;      /**url(../images/intro-bg.jpg) no-repeat center bottom**/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1384,7 +1340,7 @@ header .logo a {
 	letter-spacing: .25rem;
 }
 .intro-content .button:hover, .intro-content .button:focus {
-	border-color: #000000;
+	border-color: #4285F4;
 }
 .intro-content .button::after {
 	display: inline-block;
@@ -1416,7 +1372,8 @@ header .logo a {
 	color: #FFFFFF;
 }
 .intro-social li a:hover, .intro-social li a:focus {
-	color: #000000;
+	color: #4285F4
+	;
 }
 
 /**
@@ -1514,7 +1471,9 @@ header .logo a {
 	text-align: left;
 	padding-left: 13rem;
 }
-
+#about h5{
+	color:  #DB4437;
+}
 .about-content {
 	position: relative;
 	text-align: left;
@@ -1624,12 +1583,16 @@ header .logo a {
 	padding-top: 12rem;
 	padding-bottom: 12rem;
 }
+#resume h5{
+	color:  #DB4437;
+}
+
 
 #resume .resume-header {
 	text-align: center;
 }
 #resume .resume-header h2 {
-	color: #FF0077;
+	color: #0F9D58 ;
 }
 
 #resume .resume-timeline {
@@ -2095,7 +2058,8 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #services {
-	background: #313131 url(../images/bg.jpg) no-repeat center;
+	background: #000000; 
+	
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -2104,6 +2068,7 @@ header .logo a {
 	color: white;
 	position: relative;
 }
+
 #services .overlay {
 	position: absolute;
 	top: 0;
@@ -2122,7 +2087,7 @@ header .logo a {
 	color: white;
 }
 #services .section-intro h5 {
-	color: #FF0077;
+	color:  #DB4437;
 }
 #services .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
@@ -2144,7 +2109,7 @@ header .logo a {
 }
 .services-list .icon i {
 	font-size: 5.4rem;
-	color: #FF0077;
+	color: #DB4437;
 }
 .services-list h3 {
 	color: #FFFFFF;
@@ -2172,7 +2137,7 @@ header .logo a {
 	background: #FFFFFF;
 }
 .owl-theme .owl-controls .owl-page.active span {
-	background: #FF0077;
+	background: #DB4437;
 }
 
 
@@ -2183,7 +2148,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #stats {
-	background: #990047;
+	background: #4285F4;
 	padding-top: 7.2rem;
 	padding-bottom: 6rem;
 	text-align: center;
@@ -2258,7 +2223,7 @@ header .logo a {
 	color: white;
 }
 #contact .section-intro h5 {
-	color: #FF0077;
+	color:  #DB4437;
 }
 #contact .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
@@ -2425,7 +2390,7 @@ header .logo a {
 	color: #FFFFFF;
 }
 .contact-info h5 {
-	color: #FF0077;
+	color: #F4B400;
 }
 
 /**
@@ -2536,6 +2501,8 @@ footer .copyright span::after {
 footer .copyright span:last-child::after {
 	display: none;
 }
+footer .footer-social li a:hover, .footer-social li a:focus {
+	color: #1A5EF9;
 
 /**
  * responsive:
@@ -2562,7 +2529,7 @@ footer .copyright span:last-child::after {
 
 /**
  * go to top - (_layout.scss)
- * ------------------------------------------------------------------ 
+ * ------------------------------------------------------------------- 
  */
 #go-top {
 	position: fixed;
