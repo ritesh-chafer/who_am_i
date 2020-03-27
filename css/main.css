@@ -2501,8 +2501,8 @@ footer .copyright span::after {
 footer .copyright span:last-child::after {
 	display: none;
 }
-footer .footer-social li a:hover, .footer-social li a:focus {
-	color: #1A5EF9;
+/**footer .footer-social li a:hover, .footer-social li a:focus {
+	color: #1A5EF9;**/
 
 /**
  * responsive:
@@ -2546,7 +2546,7 @@ footer .footer-social li a:hover, .footer-social li a:focus {
 	width: 6rem;
 	line-height: 6.6rem;
 	text-align: center;
-	background: #cc005f;
+	background: #4285F4;
 	color: #FFFFFF;
 	text-align: center;
 	text-transform: uppercase;
