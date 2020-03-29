@@ -973,7 +973,7 @@ input::-moz-focus-inner {
   left: 0;
   top: -3rem;
   font-family: "poppins-bold", sans-serif;
-  color: #313131;
+  color: #888888;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   font-size: 1.5rem;
@@ -1583,13 +1583,14 @@ header .logo a {
   max-width: 850px;
   margin-bottom: 3.6rem;
   font-family: "poppins-bold", sans-serif;
-  color: #313131;
+  color: #888888;
 }
 .about-content h3 {
   font-family: "poppins-bold", sans-serif;
   font-size: 1.8rem;
   text-transform: uppercase;
   letter-spacing: 0.25rem;
+  color: #888888;
 }
 .about-content .info-list {
   list-style: none;
@@ -1610,7 +1611,7 @@ header .logo a {
 .about-content .info-list li span {
   display: block;
   font-family: "poppins-bold", sans-serif;
-  color: #313131;
+  color: #888888;
   font-size: 1.5rem;
   line-height: 1;
 }
@@ -1752,11 +1753,17 @@ header .logo a {
 }
 #resume .timeline-header p {
   font-size: 1.6rem;
-  font-family: "poppins-sans-bold", "sans-serif";
+  font-family: "poppins-bold", "sans-serif";
+  color: #888888;
 }
 #resume .timeline-content {
   margin-left: 35%;
   padding-left: 60px;
+}
+#resume .timeline-content p {
+  font-size: 1.6rem;
+  font-family: "poppins-bold", "sans-serif";
+  color: #888888;
 }
 #resume .timeline-content h4 {
   position: relative;
@@ -2196,7 +2203,7 @@ header .logo a {
   color: #db4437;
 }
 #services .section-intro p {
-  color: #313131;
+  color: #888888;
   font-family: "poppins-bold", "sans-serif";
 }
 .services-content {
@@ -2206,7 +2213,7 @@ header .logo a {
   max-width: 850px;
   margin-bottom: 3.6rem;
   font-family: "poppins-bold", sans-serif;
-  color: #313131;
+  color: #888888;
 }
 .services-list {
   margin-top: 1.2rem;
@@ -2228,7 +2235,7 @@ header .logo a {
   color: #ffffff;
 }
 .services-list .desc {
-  color: #313131;
+  color: #888888;
   font-family: "poppins-bold", "sans-serif";
 }
 
@@ -2519,7 +2526,7 @@ header .logo a {
   max-width: 850px;
   margin-bottom: 3.6rem;
   font-family: "poppins-bold", "sans-serif";
-  color: #313131;
+  color: #888888;
 }
 
 /**
