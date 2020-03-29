@@ -1150,7 +1150,7 @@ header .row {
 }
 header .top-bar {
   display: block;
-  background: #00000050;
+  background: #00000090;
   min-width: 220px;
   min-height: 66px;
   position: absolute;
@@ -1286,7 +1286,7 @@ header .logo a {
 
 /* dropdown nav */
 .main-navigation {
-  background: #00000050;
+  background: #00000090;
   padding: 24px 30px 42px;
   margin: 0;
   width: 100%;
@@ -1767,6 +1767,7 @@ header .logo a {
 }
 #resume .timeline-content h4 {
   position: relative;
+  font-family: "poppins-bold", "sans-serif";
   padding-bottom: 1.8rem;
 }
 #resume .timeline-content h4::after {
